@@ -1,0 +1,21 @@
+﻿@model User
+<form asp-action="Create" asp-controller="Home" method="post">
+    <span asp-validation-for="Name"></span>
+    <label asp-for="Name">Your Name: </label>
+    <input asp-for="Name">    
+    <span asp-validation-for="Location"></span>
+    <label asp-for="Location">Dojo Location: </label>
+    <select asp-for="Location">
+        <option value="San Jose">San Jose</option>
+        <option value="Austin">Austin</option>
+    </select>
+    <span asp-validation-for="Language"></span>
+    <label asp-for="Language"></label>
+    <select asp-for="Language">
+        <option value="C#">C#</option>
+        <option value="Python">Python</option>
+    </select>
+    <label asp-for="Comment">Comment: </label>
+    <textarea name="Comment" id="" cols="30" rows="1" asp-for="Comment"></textarea>
+    <input value="submit" type="submit">    
+</form>

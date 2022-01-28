@@ -1,0 +1,10 @@
+﻿<h1>Welcome to CRUDelicious</h1>
+
+<h3>Check out some recent dishes!</h3>
+@foreach(var l in ViewBag.AllDishes)
+{
+    <h2><a href="view/@l.DishId">@l.Name</a> by @l.Chef</h2>
+}
+
+
+<a href="/new"><button>Add a dish!</button></a>

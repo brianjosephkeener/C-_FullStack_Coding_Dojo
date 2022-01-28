@@ -1,0 +1,39 @@
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\bin\Debug\netcoreapp3.1\ViewModel Fun.exe
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\bin\Debug\netcoreapp3.1\ViewModel Fun.deps.json
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\bin\Debug\netcoreapp3.1\ViewModel Fun.runtimeconfig.json
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\bin\Debug\netcoreapp3.1\ViewModel Fun.runtimeconfig.dev.json
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\bin\Debug\netcoreapp3.1\ViewModel Fun.dll
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\bin\Debug\netcoreapp3.1\ViewModel Fun.pdb
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\bin\Debug\netcoreapp3.1\ViewModel Fun.Views.dll
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\bin\Debug\netcoreapp3.1\ViewModel Fun.Views.pdb
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\ViewModel Fun.csprojAssemblyReference.cache
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\ViewModel Fun.AssemblyInfoInputs.cache
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\ViewModel Fun.AssemblyInfo.cs
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\ViewModel Fun.csproj.CoreCompileInputs.cache
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\ViewModel Fun.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\ViewModel Fun.RazorAssemblyInfo.cache
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\ViewModel Fun.RazorAssemblyInfo.cs
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\ViewModel Fun.TagHelpers.input.cache
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\ViewModel Fun.TagHelpers.output.cache
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\ViewModel Fun.RazorCoreGenerate.cache
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\ViewModel Fun.RazorTargetAssemblyInfo.cache
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\ViewModel Fun.RazorTargetAssemblyInfo.cs
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\ViewModel Fun.Views.pdb
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\staticwebassets\ViewModel Fun.StaticWebAssets.Manifest.cache
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\staticwebassets\ViewModel Fun.StaticWebAssets.xml
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\ViewModel Fun.dll
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\ViewModel Fun.pdb
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\ViewModel Fun.genruntimeconfig.cache
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\ViewModel Fun.csproj.CopyComplete
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\Razor\Views\Home\Numbers.cshtml.g.cs
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\Razor\Views\Home\User.cshtml.g.cs
+C:\Users\root\Desktop\c_sharp\ViewModel Fun\obj\Debug\netcoreapp3.1\Razor\Views\Home\Users.cshtml.g.cs

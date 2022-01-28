@@ -1,0 +1,10 @@
+﻿<h1>Chefs | <a href="/dishes">Dishes</a></h1>
+
+<a href="/newChef"><h1>Add Chef!</h1></a>
+<h2>Check out our roster of Chefs!</h2>
+
+<h3>format is: Name | Age | # of Dishes</h3>
+@foreach(var l in ViewBag.AllChefs)
+{
+    <h2>@l.FirstName @l.LastName | @l.DateOfBirth | @l.CreatedDishes.Count </h2>
+}

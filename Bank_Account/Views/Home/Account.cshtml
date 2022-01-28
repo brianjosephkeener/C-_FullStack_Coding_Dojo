@@ -1,0 +1,41 @@
+@{
+    double total = 0;
+
+
+<h1>Welcome, @ViewBag.ShownUser[0].Creator.FirstName</h1>
+
+@foreach (var item in ViewBag.ShownUser)
+{
+    total = total + item.Decimal;
+}
+<h1>Current Balance: $@total</h1>
+
+@model Transaction
+<form method="post" asp-action="SubmitTransaction" asp-controller="Home">
+    <div>
+        <span asp-validation-for="Decimal"></span>
+        <label asp-for="Decimal">Postive number for Deposit - Negative for Withdraw</label>
+        <input asp-for="Decimal" type="number">
+    </div>
+    <div>
+        <span asp-validation-for="UserId"></span>
+        <input asp-for="UserId" type="hidden" value="@ViewBag.ShownUser[0].UserId">
+    </div>
+    <input type="submit" value="Submit">
+</form>
+
+<h1>--- Transactions ---</h1>
+@foreach (var item in ViewBag.ShownUser)
+{
+    if (@item.Decimal < 0)
+    {
+        <h2>Withdrawn: $@Math.Abs(item.Decimal) Date: @item.CreatedAt</h2>
+    }
+    else
+    {
+        <h2>Deposited: $@item.Decimal Date: @item.CreatedAt</h2>
+    }
+}     
+
+
+}

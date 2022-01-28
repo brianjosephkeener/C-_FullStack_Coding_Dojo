@@ -1,0 +1,26 @@
+<h1>@ViewBag.ShownCategory[0].Name</h1>
+@model Category
+<h3>Current Products:</h3>
+@foreach(var item in @Model.Association)
+{
+    <h4> - @item.Product.Name</h4>
+    
+}
+
+<h3>Add Product</h3>
+
+<form method="post" action="/AddAssociationCategory">
+    <label for="ProductId"></label>
+    <select name="ProductId">
+        @foreach (var item in ViewBag.ShownProducts)
+        {
+            if(!@Model.Association.Any(s => s.ProductId == item.ProductId))
+            {
+                <option value="@item.ProductId">@item.Name</option>
+            }
+        }
+    </select>
+    <input type="hidden" name ="CategoryId" value="@Model.CategoryId"> 
+    <input type="submit" value="Submit">
+</form>
+

@@ -1,0 +1,18 @@
+<h1><a href="/dashboard">Dashboard</a></h1>
+<br>
+<h2>-*-*-*-*-*-*-*-*-*-*-*-*-*-*</h2>
+<br>
+<h2>*-*-*-*-*-*-*-*-*-*-*-*-*-*-</h2>
+<br>
+
+@model Wedding
+
+<h1>@ViewBag.ShownWedding.Wedder_1 and @ViewBag.ShownWedding.Wedder_2's Wedding</h1>
+
+<h2>Date: @ViewBag.ShownWedding.WeddingDate.ToString("d")</h2>
+<h2>Address: @ViewBag.ShownWedding.Wedding_Address</h2>
+<h3>Guests: </h3>
+@foreach (var item in @ViewBag.ShownWedding.Association)
+{
+    <h4>@item.User.FirstName @item.User.LastName</h4>
+}

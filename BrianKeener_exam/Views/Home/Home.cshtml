@@ -1,0 +1,39 @@
+<h1>Welcome to the Dojo Activity Center</h1>
+<h1>Weclome, @ViewBag.User.Name</h1>
+<h2><a href="/loggout">Loggout</a></h2>
+@model List<Forum>
+<table>
+    <tr>
+        <th>*Activity*-</th>
+        <th>-*Date & Time*-</th>
+        <th>-*Duration*- </th>
+        <th>-*Event Coordinator*-</th>
+        <th>-*No. of Participants*-</th>
+        <th>-*Actions*</th>
+    </tr>
+    
+        @foreach (var item in Model)
+        {
+            <tr>
+            <td><a href="Forum/@item.ForumId">@item.Name</a></td>
+            <td>@item.ForumDate.ToString("d") at @item.Time</td>
+            <td>@item.Duration @item.DurationHMD</td>
+            <td>@item.Association[0].User.Name</td>
+            <td>@(item.Association.Count-1)</td>
+            @{if (item.UserId == ViewBag.User.UserId)
+            {
+                <td><a href="/Forum/deleteForum/@item.ForumId">Delete</a></td>
+            }
+            else if(item.Association.Any(l => l.UserId == ViewBag.User.UserId))
+            {
+                <td><a href="/Forum/removeRSVP/@item.ForumId">Leave</a></td>
+            }
+            else
+            {
+                <td><a href="/Forum/addRSVP/@item.ForumId">Join</a></td>
+            }
+            }
+            </tr>
+        }
+</table>
+<a href="createForum"><button>Create Forum</button></a>

@@ -1,0 +1,24 @@
+@model Dishes
+
+<h1>Edit @ViewBag.ShownDish.Name</h1>
+
+<form method="post" asp-action="EditDish" asp-controller="Home">
+<span asp-validation-for="Chef"></span>
+<h2>Chef's Name</h2>
+<input type="text" value="@ViewBag.ShownDish.Chef" asp-for="Chef">
+<span asp-validation-for="Name"></span>
+<h2>Name of Dish</h2>
+<input type="text" value="@ViewBag.ShownDish.Name" asp-for="Name">
+<span asp-validation-for="Calories"></span>
+<h2># of Calories</h2>
+<input type="text" value="@ViewBag.ShownDish.Calories" asp-for="Calories">
+<span asp-validation-for="Tastiness"></span>
+<h2>Tastiness</h2>
+<input type="number" min="1" max="5" value="@ViewBag.ShownDish.Tastiness" asp-for="Tastiness">
+<span asp-validation-for="Description"></span>
+<h2>Description</h2>
+<textarea cols="30" rows="10" asp-for="Description">@ViewBag.ShownDish.Description</textarea>
+<span asp-validation-for="DishId"></span>
+<input type="hidden" asp-for="DishId" value="@ViewBag.ShownDish.DishId">
+<input type="submit" value="Edit Dish">
+</form>

@@ -1,0 +1,33 @@
+<h1>Welcome to the Wedding Planner</h1>
+@model List<Wedding>
+<table>
+    <tr>
+        <th>*Wedding*-</th>
+        <th>-*Date*-</th>
+        <th>-*Guest*- </th>
+        <th>-*Action* </th>
+    </tr>
+    
+        @foreach (var item in Model)
+        {
+            <tr>
+            <td><a href="wedding/@item.WeddingId">@item.Wedder_1 & @item.Wedder_2</a></td>
+            <td>@item.WeddingDate.ToString("d")</td>
+            <td>@item.Association.Count</td>
+            @{if (item.UserId == @Int32.Parse(ViewBag.UserId))
+            {
+                <td><a href="deleteWedding/@item.WeddingId">Delete</a></td>
+            }
+            else if(item.Association.Any(l => l.UserId == @Int32.Parse(ViewBag.UserId)))
+            {
+                <td><a href="removeRSVP/@item.WeddingId">Remove</a></td>
+            }
+            else
+            {
+                <td><a href="addRSVP/@item.WeddingId">Add</a></td>
+            }
+            }
+            </tr>
+        }
+</table>
+<a href="createwedding"><button>Create Wedding</button></a>

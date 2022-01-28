@@ -1,0 +1,13 @@
+C:\Users\root\Desktop\c_sharp\Collections_Practice\obj\Debug\netcoreapp3.1\Collections_Practice.csprojAssemblyReference.cache
+C:\Users\root\Desktop\c_sharp\Collections_Practice\obj\Debug\netcoreapp3.1\Collections_Practice.AssemblyInfoInputs.cache
+C:\Users\root\Desktop\c_sharp\Collections_Practice\obj\Debug\netcoreapp3.1\Collections_Practice.AssemblyInfo.cs
+C:\Users\root\Desktop\c_sharp\Collections_Practice\obj\Debug\netcoreapp3.1\Collections_Practice.csproj.CoreCompileInputs.cache
+C:\Users\root\Desktop\c_sharp\Collections_Practice\bin\Debug\netcoreapp3.1\Collections_Practice.exe
+C:\Users\root\Desktop\c_sharp\Collections_Practice\bin\Debug\netcoreapp3.1\Collections_Practice.deps.json
+C:\Users\root\Desktop\c_sharp\Collections_Practice\bin\Debug\netcoreapp3.1\Collections_Practice.runtimeconfig.json
+C:\Users\root\Desktop\c_sharp\Collections_Practice\bin\Debug\netcoreapp3.1\Collections_Practice.runtimeconfig.dev.json
+C:\Users\root\Desktop\c_sharp\Collections_Practice\bin\Debug\netcoreapp3.1\Collections_Practice.dll
+C:\Users\root\Desktop\c_sharp\Collections_Practice\bin\Debug\netcoreapp3.1\Collections_Practice.pdb
+C:\Users\root\Desktop\c_sharp\Collections_Practice\obj\Debug\netcoreapp3.1\Collections_Practice.dll
+C:\Users\root\Desktop\c_sharp\Collections_Practice\obj\Debug\netcoreapp3.1\Collections_Practice.pdb
+C:\Users\root\Desktop\c_sharp\Collections_Practice\obj\Debug\netcoreapp3.1\Collections_Practice.genruntimeconfig.cache

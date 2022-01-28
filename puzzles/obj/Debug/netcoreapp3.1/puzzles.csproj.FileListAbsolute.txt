@@ -1,0 +1,13 @@
+C:\Users\root\Desktop\c_sharp\puzzles\bin\Debug\netcoreapp3.1\puzzles.exe
+C:\Users\root\Desktop\c_sharp\puzzles\bin\Debug\netcoreapp3.1\puzzles.deps.json
+C:\Users\root\Desktop\c_sharp\puzzles\bin\Debug\netcoreapp3.1\puzzles.runtimeconfig.json
+C:\Users\root\Desktop\c_sharp\puzzles\bin\Debug\netcoreapp3.1\puzzles.runtimeconfig.dev.json
+C:\Users\root\Desktop\c_sharp\puzzles\bin\Debug\netcoreapp3.1\puzzles.dll
+C:\Users\root\Desktop\c_sharp\puzzles\bin\Debug\netcoreapp3.1\puzzles.pdb
+C:\Users\root\Desktop\c_sharp\puzzles\obj\Debug\netcoreapp3.1\puzzles.csprojAssemblyReference.cache
+C:\Users\root\Desktop\c_sharp\puzzles\obj\Debug\netcoreapp3.1\puzzles.AssemblyInfoInputs.cache
+C:\Users\root\Desktop\c_sharp\puzzles\obj\Debug\netcoreapp3.1\puzzles.AssemblyInfo.cs
+C:\Users\root\Desktop\c_sharp\puzzles\obj\Debug\netcoreapp3.1\puzzles.csproj.CoreCompileInputs.cache
+C:\Users\root\Desktop\c_sharp\puzzles\obj\Debug\netcoreapp3.1\puzzles.dll
+C:\Users\root\Desktop\c_sharp\puzzles\obj\Debug\netcoreapp3.1\puzzles.pdb
+C:\Users\root\Desktop\c_sharp\puzzles\obj\Debug\netcoreapp3.1\puzzles.genruntimeconfig.cache

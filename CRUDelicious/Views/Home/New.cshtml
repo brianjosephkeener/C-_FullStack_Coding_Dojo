@@ -1,0 +1,32 @@
+@model Dishes
+
+<h1>Enter Your Information</h1>
+
+<form method="post" asp-action="Submit" asp-controller="Home">
+    <div>
+        <span asp-validation-for="Chef"></span>
+        <label asp-for="Chef">Chef's Name</label>
+        <input class="form-control" asp-for="Chef">
+    </div>
+    <div>
+        <span asp-validation-for="Name"></span>
+        <label asp-for="Name">Name of Dish</label>
+        <input class="form-control" asp-for="Name">
+    </div>
+     <div>
+        <span asp-validation-for="Tastiness"></span>
+        <label asp-for="Tastiness">Tastiness</label>
+        <input type="number" min="1" max="5" asp-for="Tastiness">
+    </div>
+     <div>
+        <span asp-validation-for="Calories"></span>
+        <label asp-for="Calories"># of Calories</label>
+        <input type="number" asp-for="Calories">
+    </div>
+     <div>
+        <span asp-validation-for="Description"></span>
+        <label asp-for="Description">Description </label>
+        <textarea asp-for="Description" cols="30" rows="10"></textarea>
+    </div>
+    <input type="submit" value="Add Dish">
+</form>

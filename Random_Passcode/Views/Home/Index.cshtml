@@ -1,0 +1,8 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Random passcode (passcode #@ViewBag.Time)</h1>
+<h1>@ViewBag.Pass</h1>
+<form action="generate" method="get">
+<input type="submit" value="Generate">
+</form>

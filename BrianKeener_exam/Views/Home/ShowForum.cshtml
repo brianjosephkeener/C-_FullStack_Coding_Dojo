@@ -1,0 +1,46 @@
+<h1>Dojo Activity Center</h1>
+
+<h1><a href="/Home">Home</a></h1>
+<h2><a href="/loggout">Loggout</a></h2>
+<br>
+<h2>-*-*-*-*-*-*-*-*-*-*-*-*-*-*</h2>
+<br>
+<h2>*-*-*-*-*-*-*-*-*-*-*-*-*-*-</h2>
+<br>
+
+@model List<Forum>
+
+<h1><strong>@ViewBag.ShownForum.Name</strong></h1>
+
+<!-- button for join/leave where event coordinator cannot use button unless to delete -->
+@if(@ViewBag.ShownForum.UserId != ViewBag.User.UserId)
+{
+    @foreach (var item in @Model)
+    {
+        if(@item.Association.Any(l => l.UserId == ViewBag.User.UserId))
+        {
+            <a href="removeRSVP/@ViewBag.ShownForum.ForumId"><button>Leave</button></a>
+            break;
+        }
+        else
+        {
+            <a href="addRSVP/@ViewBag.ShownForum.ForumId"><button>Join</button></a>
+            break;
+        }    
+    }
+}
+else
+{
+    <a href="/Forum/deleteForum/@ViewBag.ShownForum.ForumId"><button>Delete</button></a>
+}
+<h2>Event Coordinator: @ViewBag.ShownForum.Association[0].User.Name</h2>
+<h2>Description:</h2>
+<p>@ViewBag.ShownForum.Description</p>
+<h3>Participants: </h3>
+@foreach (var item in @ViewBag.ShownForum.Association)
+{
+    if(@item.User.Name != @ViewBag.ShownForum.Association[0].User.Name)
+    {
+        <h4>@item.User.Name</h4>
+    }
+}

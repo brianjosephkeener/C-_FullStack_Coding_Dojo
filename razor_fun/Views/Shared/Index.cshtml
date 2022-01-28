@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Here are some delicious foods!</h1>
+    @{
+        string[] foodList = new string[4]
+        {
+            "Apple Pie",
+            "Burritos",
+            "Clams Casino",
+            "Donuts"
+        };
+        foreach (var word in foodList)
+        {
+            if (word.IndexOf("c") == 0 || word.IndexOf("C") == 0)
+            {
+                <p style="color: red">@word</p>
+            }
+            else{
+                <p>@word</p>
+            }
+        };
+    }
+    <h1><a href="/tester">Wester</a></h1>
+
+</body>
+</html>
